@@ -1,0 +1,342 @@
+<!DOCTYPE html>  <html lang="en">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+  <title>Portofolio Rifqi</title>  
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap" rel="stylesheet">  
+  <style>  
+    body {  
+      margin: 0;  
+      padding: 0;  
+      font-family: 'Libre Franklin', sans-serif;  
+      font-weight: 400;  
+      color: white;  
+      background-image: url(background.jpg);  
+      background-repeat: no-repeat;  
+      background-position: center;  
+      background-size: cover;  
+      animation: fadeIn 2s ease-in-out;  
+    }  @keyframes fadeIn {  
+  from { opacity: 0; }  
+  to { opacity: 1; }  
+}  
+
+@keyframes slideDown {  
+  from { transform: translateY(-50px); opacity: 0; }  
+  to { transform: translateY(0); opacity: 1; }  
+}  
+
+@keyframes slideInLeft {  
+  from { transform: translateX(-100px); opacity: 0; }  
+  to { transform: translateX(0); opacity: 1; }  
+}  
+
+header {  
+  background: rgba(0, 0, 0, 0.6);  
+  padding: 30px;  
+  text-align: center;  
+}  
+
+header h1 {  
+  font-size: 2.5em;  
+  margin: 0;  
+  animation: slideDown 1.5s ease-out;  
+  font-weight: 600;  
+}  
+
+header p {  
+  animation: slideInLeft 1.2s ease-out;  
+}  
+
+section {  
+  background: rgba(0, 0, 0, 0.6);  
+  margin: 20px;  
+  padding: 20px;  
+  border-radius: 10px;  
+  animation: slideInLeft 1.5s ease-in-out;  
+}  
+
+h2 {  
+  color: white;  
+  font-weight: 600;  
+}  
+
+ul {  
+  list-style: none;  
+  padding-left: 0;  
+}  
+
+ul li {  
+  margin-bottom: 10px;  
+}  
+
+.certificate-item {  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+  margin-bottom: 20px;  
+}  
+
+.certificate-item img {  
+  width: 180px;  
+  border-radius: 10px;  
+  margin-top: 10px;  
+}  
+
+.skills {  
+  display: flex;  
+  gap: 15px;  
+  align-items: center;  
+}  
+
+.skills img {  
+  width: 24px;  
+  height: 24px;  
+}  
+
+footer {  
+  text-align: center;  
+  padding: 20px;  
+  background: rgba(0, 0, 0, 0.6);  
+}  
+
+a {  
+  color: #00ffff;  
+  text-decoration: none;  
+}  
+
+a:hover {  
+  text-decoration: underline;  
+}  
+
+.social-icons {  
+  display: flex;  
+  gap: 15px;  
+  align-items: center;  
+  margin-top: 10px;  
+}  
+
+.social-icons img {  
+  width: 30px;  
+  height: 30px;  
+}
+
+  </style>  
+ <style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    color: white;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+
+  @keyframes slideInLeft {
+    from { transform: translateX(-100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    animation: slideDown 1.5s ease-out;
+    font-weight: 600;
+  }
+
+  header p {
+    animation: slideInLeft 1.2s ease-out;
+  }
+
+  section {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    animation: slideInLeft 1.5s ease-in-out;
+  }
+
+  h2 {
+    color: white;
+    font-weight: 600;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  .certificate-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .certificate-item img {
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .skills {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .skills img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    text-align: center;
+  }
+
+  .skill-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+  }
+
+  .skill-item p {
+    margin-top: ;: 8px;
+    font-weight: 600;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  a {
+    color: #00ffff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+</style>
+
+</head>  
+<body>  
+  <header>  
+    <h1>Rifqi Alfariz</h1>  
+    <p>Pelajar TKJ | Web Developer Pemula</p>  
+  </header>    <section>  
+    <h2>👤 About me</h2>  
+    <p>Halo! Saya Rifqi, seorang pelajar jurusan Teknik Komputer dan Jaringan yang sedang berusaha belajar untuk membuat website dan aplikasi sederhana.</p>  
+  </section>    <section>  
+    <h2>💻 Keahlian</h2>  
+    <section>  
+  <div class="skills-grid">  
+    <div class="skill-item">  
+      <img src="html.jpg" alt="HTML">  
+      <p>HTML</p>  
+    </div>  
+    <div class="skill-item">  
+      <img src="css.jpg" alt="CSS">  
+      <p>CSS</p>  
+    </div>  
+    <div class="skill-item">  
+      <img src="vb.jpg" alt="Vb">  
+      <p>Visual Basic</p>  
+    </div>  
+    <div class="skill-item">  
+      <img src="word.jpg" alt="Ms.word">  
+      <p>Ms.word</p>  
+    </div>  
+    <div class="skill-item">  
+      <img src="php.jpg" alt="PHP">  
+      <p>PHP</p>  
+    </div>  
+    <div class="skill-item">  
+      <img src="mysql.jpg" alt="MySQL">  
+      <p>MySQL</p>  
+     <div class="skill-item">
+       <img src="excell.jpg" alt="excell">
+       <p>Ms.Excell
+       </p>
+       
+     </div>
+    </div>  
+  </div>  
+  
+</section>  
+
+  </section>    <section>  
+  
+    <h2>💼 Certificate</h2>  
+    <div class="certificate-item">  
+      <p>Training IT Support - LKP AKADEMIKITA (2025)</p>  
+      <img src="gambar1.jpg" alt="Sertifikat 1">  
+    </div>  
+    <div class="certificate-item">  
+      <p>Teknologi Informasi Perangkat Lunak Untuk Bisnis - Lomba Kompetensi Siswa (2024)</p>  
+      <img src="gambar2.jpg" alt="Sertifikat 2">  
+    </div>  
+   
+  
+   
+  </section>    <section>  
+    <h2>📞 Contact</h2>  
+    <p>✉️ alfarizzz411@gmail.com</p>  
+    <p>📞 085942029259</p>  
+    <div class="social-icons">  
+      <a href="https://instagram.com/alffar1zzz" target="_blank">  
+        <img src="logoig.jpg" alt="Instagram">  
+      </a>  
+      <a href="https://tiktok.com/@alffar1zzz" target="_blank">  
+        <img src="logott.jpg" alt="TikTok">  
+      </a>  
+      <a href="https://www.facebook.com/share/1AxLYfvf1Y/" target="_blank">  
+        <img src="logofb.jpg" alt="Facebook">  
+      </a>  
+    </div>  
+  </section>    <footer>  
+    <p>© 2025 Rifqi Alfariz. Dibuat dengan HTML dan CSS.</p>  
+  </footer>  
+</body>  
+</html>
